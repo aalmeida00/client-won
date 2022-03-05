@@ -39,3 +39,7 @@ yarn-error.log*
 # sw things
 public/sw.js
 public/workbox*.js
+
+# env files
+.env
+.env.development
