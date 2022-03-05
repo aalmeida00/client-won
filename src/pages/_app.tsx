@@ -1,11 +1,13 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import { ThemeProvider } from 'styled-components'
 
 import GlobalStyle from 'styles/global'
+import theme from 'styles/theme'
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <Head>
         <title>Next.js + TypeScript</title>
         <link rel="shortcut icon" href="" />
@@ -16,9 +18,9 @@ function App({ Component, pageProps }: AppProps) {
           content="a simple boilerplate to use TS + Next"
         />
       </Head>
-      <Component {...pageProps} />
       <GlobalStyle />
-    </>
+      <Component {...pageProps} />
+    </ThemeProvider>
   )
 }
 
