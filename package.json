@@ -32,7 +32,7 @@
     "next-pwa": "^5.4.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "^5.3.3",
+    "styled-components": "^5.3.5",
     "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
@@ -48,7 +48,7 @@
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.37",
-    "@types/styled-components": "^5.1.15",
+    "@types/styled-components": "^5.1.26",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^2.0.2",
     "eslint": "7",
